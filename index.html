@@ -4,73 +4,133 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c3693ceaa4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>김민석의 이력서</title>
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="header">
         <h1 class="ir">김민석 이력서</h1>
-        <img src="profile.png" alt="프로필 이미지" />
+        <img class="profile-img" src="./imgs/profile.png" alt="프로필 이미지" />
         <div class="header-text">
           <strong class="slogan">"Together to getter"</strong>
           <div class="header-text-bottom">
-            <p>
+            <p class="intro">
               함께 고객을 위해 일하는<br />
+              프론트엔드 개발자<br />
               <strong>김민석</strong>입니다.
             </p>
             <div class="contact">
-              <p>Contact : <strong>alstjr5949@gmail.com</strong></p>
-              <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+              <p class="email">
+                Contact : <strong>alstjr5949@gmail.com</strong>
+              </p>
+              <ul class="sns-lists">
+                <li>
+                  <a href="https://github.com/alstjr5949/"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100024619723566"
+                  >
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/mingcoding/"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </header>
-      <main>
-        <section>
-          <h2>Introduce</h2>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+      <main class="main">
+        <section class="introduce">
+          <h2>Introduce.</h2>
+          <p>
+            1일 1커밋을 실천하며 총 47개의 Repository와 559개의 push를 했습니다.
+            꾸준하고 성실하게 개발하고 있습니다.
+          </p>
+          <p>
+            21개의 기술 포스트를 작성 했습니다. 내가 겪었던 실수와
+            문제해결방법들을 공유하려고 노력하고 있습니다. 실패 경험을 계속해서
+            공유하고 있습니다.
+          </p>
+          <p>
+            Tailwind, Recoil 등 새로운 기술을 배우는 것에 관심이 많습니다.
+            모르는 것 혹은 새로운 것을 배우는 것에 행복을 느낍니다. 항상 배울
+            준비가 되어 있습니다.
+          </p>
+          <p>
+            소통하는 것을 즐깁니다. 인터뷰와 연사 등 나의 경험을 전달하고 그
+            경험에 대해 함께 이야기하는 것을 좋아합니다. 적절하고 말랑한
+            톤앤매너를 통해 최소한의 갈등과 최대한의 소통을 유지합니다.
+          </p>
         </section>
-        <section>
-          <h2>Skill</h2>
+        <section class="skills">
+          <h2>Skills.</h2>
           <h3>Frontend</h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          <ul class="lang-cont">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Sass(SCSS)</li>
+            <li>Bootstrap</li>
+            <li>Tailwind</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
           </ul>
           <h3>BackEnd</h3>
-          <ul>
-            <li></li>
-            <li></li>
+          <ul class="lang-cont">
+            <li>AWS</li>
+            <li>Node</li>
           </ul>
           <h3>Etc.</h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+          <ul class="lang-cont">
+            <li>Git/Github</li>
+            <li>Slack</li>
+            <li>Notion</li>
           </ul>
         </section>
-        <section>
-          <h2>Experience</h2>
+        <section class="experience">
+          <h2>Edu & Experience.</h2>
           <h3>멋쟁이사자처럼 프론트엔드스쿨 2기</h3>
           <p>2022.03.28 ~ 2022.08.01</p>
+          <h3>
+            제주 웹 컨퍼런스 연사 (언택트 시대에 주니어 개발자들이 함께 성장하는
+            방법)
+          </h3>
+          <p>2022.06.03</p>
+          <h3>한밭대학교 기계공학과</h3>
+          <p>2015.03 ~ 2020.02</p>
+        </section>
+        <section class="certificate">
+          <h2>Certificate.</h2>
+          <h3>멋쟁이사자처럼 프론트엔드스쿨 캐릭터대회 선물상</h3>
+          <div class="certificate-link-cont">
+            <a href="https://alstjr5949.github.io/catCharacter/">보러가기</a>
+            <a href="https://github.com/alstjr5949/catCharacter"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <h3>멋쟁이사자처럼 프론트엔드스쿨 Tailwind 이력서대회 최우수상</h3>
+          <div class="certificate-link-cont">
+            <a href="https://alstjr5949.github.io/resumeContest/">보러가기</a>
+            <a href="https://github.com/alstjr5949/resumeContest"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </section>
         <section>
-          <h2>Project</h2>
-          <ul>
+          <h2>Project.</h2>
+          <!-- <ul>
             <li>
               <h3>프로젝트 명</h3>
               <p>프로젝트 기간</p>
@@ -79,7 +139,7 @@
               <h4>프로젝트 소개</h4>
               <p>프로젝트 소개 디테일</p>
             </li>
-          </ul>
+          </ul> -->
         </section>
       </main>
     </div>

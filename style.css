@@ -1,0 +1,180 @@
+@import "reset.css";
+
+/* Font */
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* layout */
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  font-family: "GmarketSansMedium";
+}
+
+.wrapper {
+  width: 700px;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header .profile-img {
+  width: 180px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.slogan {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  font-style: italic;
+  font-family: "GmarketSansBold";
+  font-size: 35px;
+  color: #0ba5e9;
+}
+
+.header-text-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  line-height: 1.3;
+}
+
+.header-text-bottom .intro {
+  margin-right: 50px;
+}
+
+.header-text-bottom .intro strong {
+  display: inline-block;
+  color: #7cd3fc;
+  font-family: "GmarketSansBold";
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact .email {
+  font-size: 14px;
+}
+
+.contact .email strong {
+  font-family: "GmarketSansBold";
+}
+
+.contact .sns-lists {
+  display: flex;
+}
+
+.contact .sns-lists > li {
+  font-size: 24px;
+  margin: 5px 0 0 15px;
+}
+
+/* main */
+.main {
+  line-height: 1.3;
+}
+
+.main h2 {
+  font-family: "GmarketSansBold";
+  font-size: 22px;
+  margin: 20px 0;
+  color: #7cd3fc;
+}
+
+.main section {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.introduce p {
+  margin-bottom: 20px;
+}
+
+.skills h3 {
+  font-family: "GmarketSansBold";
+  margin-bottom: 20px;
+}
+
+.skills .lang-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.skills .lang-cont:last-of-type {
+  margin-bottom: 0;
+}
+
+.skills .lang-cont li {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.experience h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.experience p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.experience p:last-of-type {
+  margin-bottom: 0;
+}
+
+.certificate h3 {
+  font-size: 18px;
+}
+
+.certificate .certificate-link-cont {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.certificate .certificate-link-cont:last-of-type {
+  margin-bottom: 0px;
+}
+
+.certificate .certificate-link-cont a {
+  margin-right: 10px;
+}
+
+.certificate .certificate-link-cont a:hover {
+  color: black;
+}
