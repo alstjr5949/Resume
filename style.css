@@ -48,7 +48,6 @@ body {
 }
 
 .slogan {
-  display: block;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,4 +176,18 @@ body {
 
 .certificate .certificate-link-cont a:hover {
   color: black;
+}
+
+@media screen and (max-width: 645px) {
+  .header {
+    width: 100vw;
+    height: 200px;
+    justify-content: space-around;
+  }
+  .header .profile-img {
+    display: none;
+  }
+  .main section {
+    padding: 0 20px 20px;
+  }
 }
