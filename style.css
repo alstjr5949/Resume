@@ -120,6 +120,8 @@ body {
   margin-bottom: 20px;
 }
 
+/* skills */
+
 .skills h3 {
   font-family: "GmarketSansBold";
   margin-bottom: 20px;
@@ -141,6 +143,8 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
+/* experience */
+
 .experience h3 {
   font-size: 18px;
   margin-bottom: 5px;
@@ -155,6 +159,8 @@ body {
 .experience p:last-of-type {
   margin-bottom: 0;
 }
+
+/* certificate */
 
 .certificate h3 {
   font-size: 18px;
@@ -177,6 +183,74 @@ body {
 
 .certificate .certificate-link-cont a:hover {
   color: black;
+}
+
+/* project */
+.project-list {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-info {
+  min-width: 200px;
+  margin-right: 100px;
+}
+
+.project-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: "GmarketSansBold";
+}
+
+.project-info .period {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.project-info h4 {
+  margin-bottom: 5px;
+}
+
+.project-info a {
+  display: block;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.project-info .project-lang strong {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #777;
+  color: #eee;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.project-detail h4 {
+  margin-bottom: 5px;
+}
+
+.project-detail p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.project-detail ul {
+  margin-bottom: 5px;
+}
+
+.project-detail .contribute-list {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 @media screen and (max-width: 645px) {
