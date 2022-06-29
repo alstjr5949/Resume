@@ -120,7 +120,8 @@ body {
   margin-bottom: 20px;
 }
 
-.introduce p a {
+.introduce p a,
+.introduce p span {
   font-family: "GmarketSansBold";
   color: white;
   background-color: #0ba5e9;
