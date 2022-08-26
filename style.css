@@ -204,6 +204,7 @@ body {
 
 .project-info {
   min-width: 200px;
+  max-width: 200px;
   margin-right: 100px;
 }
 
@@ -243,7 +244,7 @@ body {
 }
 
 .project-detail h4 {
-  margin: 10px 0 5px;
+  margin: 5px 0px;
 }
 
 .project-detail p {
@@ -276,6 +277,12 @@ body {
   .main section {
     padding: 0 20px 20px;
   }
+  .project-list {
+    flex-direction: column;
+  }
+  .project-info {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -296,5 +303,8 @@ body {
   }
   .header-text-bottom .intro {
     margin-right: 10px;
+  }
+  .project-list {
+    flex-direction: column;
   }
 }
